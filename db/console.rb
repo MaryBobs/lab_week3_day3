@@ -38,5 +38,8 @@ all_artist = Artist.list_all()
 all_albums = Album.list_all()
 beatles_albums = artist1.albums()
 
+find_album_by_id = Album.find_by_id(album2.id)
+find_artist_by_id = Artist.find_by_id(artist1.id)
+
 binding.pry
 nil
